@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Sistema de Gestão de Produtos</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>Bem-vindo ao Sistema de Gestão de Produtos</h1>
+    <a href="{{ url_for('cadastrar_produto') }}">Cadastrar Produto</a><br>
+    <a href="{{ url_for('listar_produtos') }}">Listar Produtos</a><br>
+    <a href="{{ url_for('realizar_venda') }}">Realizar Venda</a><br>
+    <a href="{{ url_for('login') }}">Área Administrativa</a>
+</body>
+</html>
